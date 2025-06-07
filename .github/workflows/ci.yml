@@ -17,5 +17,8 @@ jobs:
         with:
           repository: BigCat3997/one-press-mock-projects
 
+      - name: Checkout my-shared-library
+        run: ls -la 
+
       - name: Install dependencies
         run: npm install
