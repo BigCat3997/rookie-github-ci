@@ -12,5 +12,10 @@ jobs:
       - name: Show all envs
         run: env
 
+      - name: Checkout my-shared-library
+        uses: actions/checkout@v4
+        with:
+          repository: BigCat3997/one-press-mock-projects
+
       - name: Install dependencies
         run: npm install
