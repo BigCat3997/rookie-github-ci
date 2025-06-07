@@ -9,5 +9,8 @@ jobs:
       - name: Just print a message
         run: echo "Starting the build process..."
 
+      - name: Show all envs
+        run: env
+
       - name: Install dependencies
         run: npm install
